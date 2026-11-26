@@ -281,7 +281,7 @@ function initCalendarAndSharing() {
           `📅 *Sunday, 13 December 2026* (4 Rajab 1448 AH)\n\n` +
           `🍽️ *Reception:* 5:00 PM\n` +
           `📍 *Venue:* AMANATH Convention Centre, Iringavoor Road, Meeshapadi, Tirur\n` +
-          `🗺️ Directions: https://maps.google.com/?q=AMANATH+Convention+Centre+Iringavoor+Road+Meeshapadi+Tirur\n\n` +
+          `🗺️ Directions: https://maps.app.goo.gl/jz94XAwYRDJY8aM27\n\n` +
           `🕌 *Nikah Ceremony:* 10:30 AM (APM Auditorium, Thalakkadathur)\n\n` +
           `Kindly view our digital invitation here:\n${window.location.href}`
         );
