@@ -1,6 +1,6 @@
 /**
  * Premium Nikah & Wedding Invitation Website — Interactive Logic
- * Couple: Hiba Parveen & Afsal
+ * Couple: Afsal VK & Hiba Parveen
  * Features: Curtain Opening Video Synchronizer, Cinematic Text Reveal,
  * Luxury Background Music Player, Real-time Countdown & Google Calendar Export.
  */
@@ -255,7 +255,7 @@ function initCalendarAndSharing() {
   if (saveAllBtn) {
     saveAllBtn.addEventListener('click', () => {
       generateGoogleCalendarLink(
-        'Nikah & Reception — Hiba Parveen & Afsal',
+        'Nikah & Reception — Afsal VK & Hiba Parveen',
         'APM Auditorium & AMANATH Convention Centre, Tirur',
         '2026-12-13T10:30:00',
         '2026-12-13T21:00:00'
@@ -272,12 +272,12 @@ function initCalendarAndSharing() {
         const shareText = encodeURIComponent(
           `*Nikah Invitation*\n\n` +
           `With the blessings of Allah, we cordially invite you and your family to celebrate the sacred Nikah ceremony of:\n\n` +
+          `✦ *Afsal VK*\n` +
+          `    _S/o Mr. Eandutty Haji V K & Mrs. Fathima T_\n` +
+          `    _Verum Kundil (H), Cheriyamundam P.O., Parapputhadam, Tirur_\n\n` +
           `✦ *Hiba Parveen P V*\n` +
           `    _D/o Mr. Saidalavi P V & Mrs. Ayisha K_\n` +
           `    _Paraparambil Vellamkottil (H), Ovungal P.O., Thalakkadathur, Tirur_\n\n` +
-          `✦ *Afsal*\n` +
-          `    _S/o Mr. Eandutty Haji V K & Mrs. Fathima T_\n` +
-          `    _Verum Kundil (H), Cheriyamundam P.O., Parapputhadam, Tirur_\n\n` +
           `📅 *Sunday, 13 December 2026* (4 Rajab 1448 AH)\n\n` +
           `🕌 *Nikah Ceremony:* 10:30 AM\n` +
           `📍 *Venue:* APM Auditorium, Thalakkadathur, Tirur\n` +
