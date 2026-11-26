@@ -279,11 +279,10 @@ function initCalendarAndSharing() {
           `    _D/o Mr. Saidalavi P V & Mrs. Ayisha K_\n` +
           `    _Paraparambil Vellamkottil (H), Ovungal P.O., Thalakkadathur, Tirur_\n\n` +
           `📅 *Sunday, 13 December 2026* (4 Rajab 1448 AH)\n\n` +
-          `🕌 *Nikah Ceremony:* 10:30 AM\n` +
-          `📍 *Venue:* APM Auditorium, Thalakkadathur, Tirur\n` +
-          `🗺️ Directions: https://maps.app.goo.gl/PwSaht5cjqv7CmGc7\n\n` +
           `🍽️ *Reception:* 5:00 PM\n` +
-          `📍 *Venue:* AMANATH Convention Centre, Iringavoor Road, Meeshapadi, Tirur\n\n` +
+          `📍 *Venue:* AMANATH Convention Centre, Iringavoor Road, Meeshapadi, Tirur\n` +
+          `🗺️ Directions: https://maps.google.com/?q=AMANATH+Convention+Centre+Iringavoor+Road+Meeshapadi+Tirur\n\n` +
+          `🕌 *Nikah Ceremony:* 10:30 AM (APM Auditorium, Thalakkadathur)\n\n` +
           `Kindly view our digital invitation here:\n${window.location.href}`
         );
         window.open(`https://api.whatsapp.com/send?text=${shareText}`, '_blank');
