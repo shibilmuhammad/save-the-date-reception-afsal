@@ -2135,6 +2135,43 @@ body.initial-lock {
   margin: 4px 0;
 }
 
+.reception-sub-nikah {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: 18px auto 0;
+  padding: 7px 16px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px dashed rgba(140, 22, 40, 0.35);
+  border-radius: 999px;
+  max-width: 96%;
+}
+
+.sub-nikah-bullet {
+  color: #C9A15A;
+  font-size: 0.68rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.sub-nikah-text {
+  font-family: var(--font-serif);
+  font-size: 0.71rem;
+  color: #5A2A32;
+  margin: 0;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.sub-nikah-lead {
+  font-weight: 700;
+  color: #8C1628;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+}
+
 /* ==========================================================================
    THE VENUE SECTION
    ========================================================================== */
