@@ -170,7 +170,7 @@ function initFloatingMusicPlayer() {
 }
 
 /* ==========================================================================
-   3. REAL-TIME COUNTDOWN TIMER (13 December 2026 at 10:30 AM)
+   3. REAL-TIME COUNTDOWN TIMER (13 December 2026 at 5:00 PM)
    ========================================================================== */
 function initWeddingCountdown() {
   const daysEl = document.getElementById('days');
@@ -179,8 +179,8 @@ function initWeddingCountdown() {
   const secondsEl = document.getElementById('seconds');
   if (!daysEl || !hoursEl || !minutesEl || !secondsEl) return;
 
-  // Target Date: 13 December 2026 10:30:00 (Local Time)
-  const targetDate = new Date('2026-12-13T10:30:00+05:30').getTime();
+  // Target Date: 13 December 2026 17:00:00 (Local Time)
+  const targetDate = new Date('2026-12-13T17:00:00+05:30').getTime();
 
   function updateTimer() {
     const now = new Date().getTime();
@@ -255,9 +255,9 @@ function initCalendarAndSharing() {
   if (saveAllBtn) {
     saveAllBtn.addEventListener('click', () => {
       generateGoogleCalendarLink(
-        'Nikah & Reception — Afsal VK & Hiba Parveen',
-        'APM Auditorium & AMANATH Convention Centre, Tirur',
-        '2026-12-13T10:30:00',
+        'Wedding Reception — Afsal & Hiba Parveen',
+        'AMANATH Convention Centre, Iringavoor Road, Meeshapadi, Tirur',
+        '2026-12-13T17:00:00',
         '2026-12-13T21:00:00'
       );
     });
@@ -270,8 +270,8 @@ function initCalendarAndSharing() {
     if (btn) {
       btn.addEventListener('click', () => {
         const shareText = encodeURIComponent(
-          `*Nikah Invitation*\n\n` +
-          `With the blessings of Allah, we cordially invite you and your family to celebrate the sacred Nikah ceremony of:\n\n` +
+          `*Wedding Reception Invitation*\n\n` +
+          `With the blessings of Allah, we cordially invite you and your family to celebrate the wedding reception of:\n\n` +
           `✦ *Afsal VK*\n` +
           `    _S/o Mr. Eandutty Haji V K & Mrs. Fathima T_\n` +
           `    _Verum Kundil (H), Cheriyamundam P.O., Parapputhadam, Tirur_\n\n` +
