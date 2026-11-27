@@ -725,7 +725,7 @@ body.initial-lock {
     radial-gradient(circle at 10% 15%, rgba(201, 161, 90, 0.08) 0%, transparent 45%),
     radial-gradient(circle at 90% 85%, rgba(201, 161, 90, 0.08) 0%, transparent 45%);
   color: #4A0715;
-  padding: clamp(52px, 8vh, 68px) 24px clamp(56px, 8.5vh, 72px) 24px;
+  padding: clamp(52px, 8vh, 68px) 16px clamp(56px, 8.5vh, 72px) 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -762,7 +762,7 @@ body.initial-lock {
   position: relative;
   z-index: 2;
   width: 100%;
-  max-width: 360px;
+  max-width: 400px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -842,7 +842,7 @@ body.initial-lock {
 
 .blessed-parentage {
   font-family: var(--font-serif-luxury);
-  font-size: clamp(0.95rem, 3.2vw, 1.08rem);
+  font-size: clamp(0.82rem, 2.6vw, 1.02rem);
   font-style: italic;
   color: #4A1A24;
   line-height: 1.45;
@@ -853,6 +853,7 @@ body.initial-lock {
   font-style: normal;
   font-weight: 600;
   color: #2D040C;
+  white-space: nowrap;
 }
 
 .blessed-residence {
